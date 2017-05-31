@@ -3,12 +3,13 @@
 set -e
 
 GREEN='\e[32m'
+RESET='\033[0m'
 
 echo -e "${GREEN}This is a mbenatti/heroku-buildpack-multi buildpack is forked from https://github.com/ddollar/heroku-buildpack-multi."
 echo -e
 echo -e "executing"
 echo -e
-echo -e "..."
+echo -e "...${RESET}"
 
 #[ $(date +%Y%m%d%H%M%S) -gt "20170101000000" ] && exit 1
 
